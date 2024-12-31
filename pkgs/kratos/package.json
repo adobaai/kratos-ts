@@ -1,0 +1,15 @@
+{
+  "name": "@adobaai/kratos",
+  "version": "0.1.0",
+  "description": "TypeScript integration for Kratos microservice framework",
+  "keywords": [
+    "kratos",
+    "microservice"
+  ],
+  "author": {
+    "name": "ionling",
+    "email": "soarvision@outlook.com",
+    "url": "https://flow.visionhope.cn"
+  },
+  "license": "MIT"
+}
