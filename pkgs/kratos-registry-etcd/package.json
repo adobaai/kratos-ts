@@ -1,10 +1,11 @@
 {
-  "name": "@adobaai/kratos",
+  "name": "@adobaai/kratos-registry-etcd",
   "version": "0.1.0",
-  "description": "TypeScript integration for Kratos microservice framework",
+  "description": "A Kratos registry implementation using etcd",
   "keywords": [
+    "microservice",
     "kratos",
-    "microservice"
+    "registry"
   ],
   "homepage": "https://github.com/adobaai/kratos-ts#readme",
   "bugs": {
@@ -13,12 +14,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adobaai/kratos-ts.git",
-    "directory": "pkgs/kratos"
+    "directory": "pkgs/kratos-registry-etcd"
   },
+  "license": "MIT",
   "author": {
     "name": "ionling",
     "email": "soarvision@outlook.com",
     "url": "https://flow.visionhope.cn"
   },
-  "license": "MIT"
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
