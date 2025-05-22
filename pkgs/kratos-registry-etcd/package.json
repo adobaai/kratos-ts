@@ -24,6 +24,14 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "dependencies": {
+    "@adobaai/kratos": "workspace:^",
+    "etcd3": "^1.1.2"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.2.5"
   }
 }
