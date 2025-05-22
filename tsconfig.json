@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true // to remove: ts-jest[config] (WARN) message TS151001
+  }
+}
