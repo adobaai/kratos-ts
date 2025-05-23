@@ -1,5 +1,12 @@
 # Note
 
+## Commands
+
+```sh
+pnpm pack
+pnpm version patch
+```
+
 ## No package-lock.json
 
 DeepSeek:

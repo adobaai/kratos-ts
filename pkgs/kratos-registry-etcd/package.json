@@ -1,6 +1,6 @@
 {
   "name": "@adobaai/kratos-registry-etcd",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A Kratos registry implementation using etcd",
   "keywords": [
     "microservice",
@@ -23,8 +23,17 @@
     "url": "https://flow.visionhope.cn"
   },
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/registry.js"
+    }
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsup registry.ts --dts --format esm"
   },
   "dependencies": {
     "@adobaai/kratos": "workspace:^",
@@ -32,6 +41,7 @@
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "ts-jest": "^29.2.5"
+    "ts-jest": "^29.2.5",
+    "tsup": "^8.5.0"
   }
 }
